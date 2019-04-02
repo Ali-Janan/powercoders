@@ -1,2 +1,2 @@
 # powercoders
-this is a coding academy 
+This is a coding academy ok
