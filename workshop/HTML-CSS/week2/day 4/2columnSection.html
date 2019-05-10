@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS - Columns</title>
+
+  <link rel="stylesheet" href="https://poco.squarelabel.com/assets/common/common.css">
+
+  <style>
+    /*COMMON*/
+    header {
+      margin-bottom: 2em;
+    }
+
+    .general {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 100em;
+    }
+
+    .box1{
+      width: 48%;
+      background: red;
+    }
+    .float {
+      margin: 0;
+      display: block;
+      float: right;
+      width: 50%;
+    }
+
+    .box2{
+      width: 48%;
+      background: blue;
+    }
+
+    .text-columns {
+      columns: 2;
+      background-color: aquamarine;
+      /* Space (gap) between the columns */
+      column-gap: 2em;
+    /*STYLES FOR COLUMNS*/
+    
+  </style>
+</head>
+
+
+
+
+<body>
+  <header>
+    <h1>CSS - Columns</h1>
+  </header>
+
+  <div class="text-columns">
+    <p>
+      Alice, assise auprès de sa sœur sur le gazon, commençait à s’ennuyer de rester là à ne rien faire ; une ou deux
+      fois elle avait jeté les yeux sur le livre que lisait sa sœur ; mais quoi ! pas d’images, pas de dialogues ! « La
+      belle avance, » pensait Alice, « qu’un livre sans images, sans causeries ! »
+    </p>
+  </div>
+
+  <hr>
+  <hr>
+  <div class="general">
+
+      <div class="box1"><h1>Box 1</h1> 
+        
+        <img class="float" src="/workshop/JANAN/switzerland.jpg" alt="">
+       
+        <p>Iran is home to one of the world's oldest civilizations,[21][22] beginning with the formation of the Elamite kingdoms in the fourth millennium BCE. It was first unified by the Iranian Medes in the seventh century BCE,[23] reaching its greatest territorial size in the sixth century BCE, when Cyrus the Great founded the Achaemenid Empire, which stretched from Eastern Europe to the Indus Valley, becoming one of the largest empires in history.[24] The Iranian realm fell to Alexander the Great in the fourth century BCE and was divided into several Hellenistic states. An Iranian rebellion culminated in the establishment of the Parthian Empire, which was succeeded in the third century CE by the Sasanian Empire, a leading world power for the next four centuries.[25][26]</p>
+   </div>  
+
+      <div class="box2"><h1> Box 2</h1>
+        <p>پایتخت، بزرگ‌ترین شهر و مرکز فرهنگی، اقتصادی، سیاسی و اداری ایران، شهر تهران است. ایران یک قدرت متوسط و منطقه‌ای مهم[۱۰][۱۱] در خاورمیانه است که به‌خاطر ذخایر بزرگ سوخت فسیلی‌اش که شامل بزرگترین میدان گاز طبیعی در جهان و چهارمین ذخایر نفتی بزرگ کشف و تأیید شده می‌شود، نفوذ و نقش قابل توجهی در امنیت بین‌المللی انرژی داشته[۱۲][۱۳] و صنعت نفت، پتروشیمی و گاز طبیعی در ایران پیشتاز است. همچنین ایران میراث فرهنگی غنی دارد که بخشی از آن به عنوان ۱۹ میراث جهانی در یونسکو ثبت شده‌است که به عنوان چهارمین رتبه در آسیا و ۱۲مین رتبه در جهان است.[۱۴] ایران به واسطهٔ قرار گرفتن در منطقهٔ میانی اوراسیا موقعیتی راهبردی دارد.</p>
+        <img src="/workshop/JANAN/Herat/46505727_2226331947437445_1742992411270840320_n.jpg" alt="" width="75%">
+        </div>  
+  </div>
+   
+  
+
+
+  <footer>
+    <p>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Columns/Using_multi-column_layouts" target="_blank">MDN - Using multi-column layouts</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>

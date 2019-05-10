@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html style="font-size: 20px; font-family: sans-serif;">
+<head>
+	<meta charset="utf-8">
+	<title>The box model - Le modèle de boîte</title>
+
+	<style>
+
+		html {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 2em 4%;
+		}
+
+		section {
+			width: 400px;
+			man-height: 400px;
+			min-width: 200px;
+			
+			padding: 1rem;
+			border: dashed 1rem #555;
+			margin: 0 auto 2em;
+
+			background-color: antiquewhite;
+		}
+
+		#two {
+			box-sizing: border-box;
+		}
+
+
+	</style>
+</head>
+<!--     -----------------------------------     -->
+<body>
+
+	<section id="one">
+		<div>
+			box-sizing: <strong>content-box</strong>; <br>
+			largeur = 400 + 40 + 40 = 480px <br>
+			hauteur = 200 + 40 + 40 = 280px
+		</div>
+	</section>
+
+	<section id="two">
+		<div>
+			box-sizing: <strong>border-box</strong>; <br>
+			largeur = 400px <br>
+			hauteur = 200px
+		</div>
+	</section>
+
+</body>
+
+</html>
